@@ -30,6 +30,8 @@ $H_A$: There is a difference in vitamin C content of cabbages based on cultivati
 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method.!-->
 
+The response variable (how much vitamin C) is numerical; the input variable is categorical. We have a Num ~ Cat
+
 # Results
 
 <!--Divide this section into two sub-sections:  One for your descriptive  results and one for your inferential results.!-->
