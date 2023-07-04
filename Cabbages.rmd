@@ -36,7 +36,9 @@ The response variable (how much vitamin C) is numerical; the input variable is c
 
 <!--Divide this section into two sub-sections:  One for your descriptive  results and one for your inferential results.!-->
 
-## Descriptive Results
+## Descriptive results
+
+## Numerical Descriptive Results
 
 
 ```{r}
@@ -48,9 +50,11 @@ This table shows that the cultivation method c52 has a higher vitamin C content 
 
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
-### Numerical Descriptive Results
+```{r}
+plot(VitC~Cult,data=veggy)
+```
 
-<!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+This graph shows that c52 has more vitamin C than C39.
 
 ## Inferential Results
 
